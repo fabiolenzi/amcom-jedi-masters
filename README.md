@@ -1,8 +1,9 @@
 # Find me a master
 
-Some considerations before runnig:
+Some considerations before running:
 
-Due the short time, the project was kept simple: no use of routes or Redux and no tests were writen.
+Due to the short time, the project was kept simple: no use of routes or Redux and no tests were written.
+
 You can find this project on [Github](https://github.com/fabiolenzi/amcom-jedi-masters).
 
 
@@ -10,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To run the project
 
-In the project directory, before run the app, install all dependecies with:
+In the project directory, before running the app, install all dependencies with:
 
 ### `npm install`
 
