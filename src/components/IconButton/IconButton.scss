@@ -1,0 +1,24 @@
+$main-color: #626C80;
+
+.icon-button {
+    align-items: center;
+    background-color: $main-color;
+    border: 0;
+    border-radius: 2vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 2vw;
+    padding: 1vw;
+    width: 14vw;
+
+    img {
+        margin-bottom: 0.8vh;
+        width: 10vw;
+    }
+
+    &:hover {
+        background-color: #806F49;
+    }
+}
