@@ -87,13 +87,15 @@ class ResultPage extends React.Component {
     }
 
     renderMastarData = (master) => {
-        return <div>
-            <p>{master.name}</p>
+        return <div className="master-container">
             <img src={master.image} alt={`${master.name}`} />
-            <p>
-                {`Saiba mais sobre seu novo mestre `}
-                <a href={master.wiki} target="_blank" rel="noopener noreferrer">aqui</a>
-            </p>
+            <div className="master-data">
+                <p className="bold">{master.name}</p>
+                <p>
+                    {`Saiba mais sobre seu novo mestre `}
+                    <a href={master.wiki} target="_blank" rel="noopener noreferrer">aqui</a>
+                </p>
+            </div>
         </div>
     }
 

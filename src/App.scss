@@ -14,11 +14,7 @@
     cursor: pointer;
     color: white;
     padding: 1vw;
-    width: 20vw;
-
-    @media (min-width: 768px) {
-      width: 14vw;
-    }
+    width: 14vw;
 
     &:hover {
       background-color: #806F49;

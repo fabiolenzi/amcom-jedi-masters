@@ -1,4 +1,5 @@
 .result-page {
+
     img {
         border-radius: 1vw;
         width: 15vw;
@@ -7,5 +8,31 @@
     a {
         color: lightblue;
     }
+    
+    @media (min-width: 1024px) {
+        .master-container {
+            display: flex;
+            // flex-direction: row;
+            margin: 8vh auto 2vh;
+        }
+    
+        .master-data {
+            display: flex;
+            flex-direction: column;
+    
+            p { 
+                text-align: left;
+                width: 100%;
+            }
+        }
+
+        img {
+            margin-right: 2vw;
+            width: 12vw;
+        }
+    }
+
+
+    
     
 }
